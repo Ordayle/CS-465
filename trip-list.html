@@ -1,0 +1,17 @@
+<h2>Admin Trips</h2>
+
+<button (click)="loadTrips()">Reload</button>
+
+<p *ngIf="error">{{ error }}</p>
+
+<ul>
+  <li *ngFor="let t of trips">
+    <strong>{{ t.name }}</strong> — ${{ t.price }} — {{ t.nights }} nights
+  </li>
+</ul>
+
+<!-- optional debug -->
+<details>
+  <summary>Debug response</summary>
+  <pre>{{ raw | json }}</pre>
+</details>

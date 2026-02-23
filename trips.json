@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Beach Getaway",
+    "description": "Relax by the ocean with luxury accommodations and stunning views.",
+    "image": "/images/sea-sound.jpg",
+    "price": 899,
+    "nights": 5
+  },
+  {
+    "name": "Mountain Retreat",
+    "description": "Escape to the mountains for peace, adventure, and fresh air.",
+    "image": "/images/mountain.jpg",
+    "price": 749,
+    "nights": 4
+  },
+  {
+    "name": "City Explorer",
+    "description": "Discover world-class dining, culture, and nightlife in a vibrant city.",
+    "image": "/images/city.jpg",
+    "price": 999,
+    "nights": 3
+  }
+]
+
